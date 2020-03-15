@@ -16,15 +16,12 @@ export_file_name = 'export.pkl'
 classes = [ 'tortellini',
     'ravioli',
     'spaghetti',
-    'tagliatelle',
     'macaroni',
-    'linguine',
+    'ruote',
     'lasagna',
     'fettuccine',
-    'orecchiette',
-    'cavatelli',
+    'fusilli',
     'farfalle',
-    'bucatini',
     'gnocchi',
     'rigatoni']
 path = Path(__file__).parent
