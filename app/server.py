@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1wX6GvmPN3JIX_Gug-MMpYACj4hK0EsdF'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1nbf_o_9bfMUddM0g-6KPhQOuS_gQgxhZ'
 
 export_file_name = 'plants_5_types.pkl'
 
