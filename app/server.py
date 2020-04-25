@@ -11,19 +11,15 @@ from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1wX6GvmPN3JIX_Gug-MMpYACj4hK0EsdF'
 
-export_file_name = 'export2.pkl'
+export_file_name = 'plants_5_types.pkl'
 
-classes = [ 'tortellini',
-    'ravioli',
-    'spaghetti',
-    'macaroni',
-    'ruote',
-    'lasagna',
-    'fettuccine',
-    'fusilli',
-    'farfalle',
-    'gnocchi',
-    'rigatoni']
+classes = [
+    'fiddle_leaf_fig',
+    'pilea_peperomia',
+    'monstera_adansonii',
+    'monstera_deliciosa',
+    'philodendron_selloum'
+]
 path = Path(__file__).parent
 
 app = Starlette()
